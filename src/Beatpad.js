@@ -46,7 +46,7 @@ componentDidMount() {
     }
   }
 
-playAudio(audioId) {
+playAudio = (audioId) => {
   var audio = document.getElementById(audioId);
   // Add the clicked audio ID to the queue
   this.clickQueue.push(audioId);
@@ -64,7 +64,7 @@ playAudio(audioId) {
     this.currentAudio = nextAudio;
 
     // When the current audio finishes playing, play the next audio in the queue
-    this.currentAudio.onended = function () {
+    this.currentAudio.onended = () => {
       this.currentAudio = null;
       this.playNextInQueue();
     };
