@@ -1,18 +1,14 @@
-import logo from "./logo.svg";
-import "./App.css";
+import Navbar from "./Navbar";
+import Home from "./Home";
 
 function App() {
-  const handleGetName = () => {
-    const names = ["sid", "john", "jane", "doe"];
-    return names[1];
-  };
-
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello to {handleGetName()}</p>
-      </header>
+      <Navbar />
+
+      <div className="content">
+        <Home />
+      </div>
     </div>
   );
 }

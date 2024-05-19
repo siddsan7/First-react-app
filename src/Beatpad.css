@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+  .square {
+    background-color: #f9f9f9; /* Default color */
+    border-radius: 10px;
+    height: 135px;
+    width: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .square:hover {
+    background-color: #474444; /* Color on hover */
+  }
+  .audio1 {
+    background-color: #1fb14b;
+  } /* Square 1 color */
+  .audio2 {
+    background-color: #1fb14b;
+  } /* Square 2 color */
+  .audio3 {
+    background-color: #1fb14b;
+  } /* Square 3 color */
+  .audio4 {
+    background-color: #1fb14b;
+  } /* Square 4 color */
+  .audio5 {
+    background-color: #c4601d;
+  } /* Square 5 color */
+  .audio6 {
+    background-color: #c4601d;
+  } /* Square 6 color */
+  .audio7 {
+    background-color: #c4601d;
+  } /* Square 7 color */
+  .audio8 {
+    background-color: #c4601d;
+  } /* Square 8 color */
+  .audio9 {
+    background-color: #5a3ed5;
+  } /* Square 9 color */
+  .audio10 {
+    background-color: #5a3ed5;
+  } /* Square 10 color */
+  .audio11 {
+    background-color: #5a3ed5;
+  } /* Square 11 color */
+  .audio12 {
+    background-color: #5a3ed5;
+  } /* Square 12 color */
+  .audio13 {
+    background-color: #ece941;
+  } /* Square 13 color */
+  .audio14 {
+    background-color: #ece941;
+  } /* Square 14 color */
+  .audio15 {
+    background-color: #ece941;
+  } /* Square 15 color */
+  .audio16 {
+    background-color: #ece941;
+  } /* Square 16 color */
+  audio {
+    display: none;
+  }
+  body {
+    overflow: scroll; /* or 'scroll' */
+  }
+  
