@@ -3,14 +3,12 @@ import "./Beatpad.css"; // Assuming you have a corresponding CSS file
 import { Howl, Howler } from "howler";
 
 class BeatPad extends React.Component {
-  //   playAudio = (audioId) => {
-  //     const audio = document.getElementById(audioId);
-  //     audio.play();
-  //   }
+  
 
   currentAudio = null;
   clickQueue = []; // Array to store the order of button presses
 
+  //initializing the sounds into Howl components
   sounds = {
     audio1: new Howl({ src: ["/PROJECT STEMS/TRUVONNE STEMS for Class 2022-2023/Drum Loops/Freeze 1-Drum Rack [2022-10-15 095511].wav"] }),
     audio2: new Howl({ src: ["/PROJECT STEMS/TRUVONNE STEMS for Class 2022-2023/Drum Loops/Freeze 1-Drum Rack [2022-10-15 095544].wav"] }),
@@ -30,6 +28,7 @@ class BeatPad extends React.Component {
     audio16: new Howl({ src: ["audio16.mp3"] })
   };
 
+  // Mapping keys to audio IDs
   keyMappings = {
     q: "audio1",
     w: "audio2",
@@ -66,6 +65,8 @@ class BeatPad extends React.Component {
     }
   };
 
+
+  //Function to add the clicked audio to the queue
   playAudio = (audioId) => {
     // Add the clicked audio ID to the queue
     this.clickQueue.push(audioId);
@@ -75,6 +76,8 @@ class BeatPad extends React.Component {
     }
   };
 
+
+  //Function to play the next audio in the queue
   playNextInQueue = () => {
     // If there are items in the queue, play the next audio
     if (this.clickQueue.length > 0) {
