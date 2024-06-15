@@ -112,105 +112,105 @@ class BeatPad extends React.Component {
           id="square2"
           onClick={() => this.playAudio("audio2")}
         >
-          Beat 2
+          Beat 2 (W)
         </div>
         <div
           className="square audio3"
           id="square3"
           onClick={() => this.playAudio("audio3")}
         >
-          Beat 3
+          Beat 3 (E)
         </div>
         <div
           className="square audio4"
           id="square4"
           onClick={() => this.playAudio("audio4")}
         >
-          Beat 4
+          Beat 4 (R)
         </div>
         <div
           className="square audio5"
           id="square5"
           onClick={() => this.playAudio("audio5")}
         >
-          Sub-bass 1
+          Sub-bass 1 (U)
         </div>
         <div
           className="square audio6"
           id="square6"
           onClick={() => this.playAudio("audio6")}
         >
-          Sub-bass 2
+          Sub-bass 2 (I)
         </div>
         <div
           className="square audio7"
           id="square7"
           onClick={() => this.playAudio("audio7")}
         >
-          Sub-bass 3
+          Sub-bass 3 (O)
         </div>
         <div
           className="square audio8"
           id="square8"
           onClick={() => this.playAudio("audio8")}
         >
-          Sub-bass 4
+          Sub-bass 4 (P)
         </div>
         <div
           className="square audio9"
           id="square9"
           onClick={() => this.playAudio("audio9")}
         >
-          Square 9
+          Square 9 (A)
         </div>
         <div
           className="square audio10"
           id="square10"
           onClick={() => this.playAudio("audio10")}
         >
-          Square 10
+          Square 10 (S)
         </div>
         <div
           className="square audio11"
           id="square11"
           onClick={() => this.playAudio("audio11")}
         >
-          Square 11
+          Square 11 (D)
         </div>
         <div
           className="square audio12"
           id="square12"
           onClick={() => this.playAudio("audio12")}
         >
-          Square 12
+          Square 12 (F)
         </div>
         <div
           className="square audio13"
           id="square13"
           onClick={() => this.playAudio("audio13")}
         >
-          Square 13
+          Square 13 (H)
         </div>
         <div
           className="square audio14"
           id="square14"
           onClick={() => this.playAudio("audio14")}
         >
-          Square 14
+          Square 14 (J)
         </div>
         <div
           className="square audio15"
           id="square15"
           onClick={() => this.playAudio("audio15")}
         >
-          Square 15
+          Square 15 (K)
         </div>
         <div
           className="square audio16"
           id="square16"
           onClick={() => this.playAudio("audio16")}
         >
-          Square 16
+          Square 16 (L)
         </div>
 
         

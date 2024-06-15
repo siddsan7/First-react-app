@@ -75,5 +75,5 @@ audio {
   display: none;
 }
 body {
-  overflow: scroll; /* or 'scroll' */
+  overflow: scroll;
 }
